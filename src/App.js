@@ -1,9 +1,9 @@
 import { useState, useEffect, useCallback } from "react";
+import './styles.css';
 import { BiCalendar } from "react-icons/bi";
 import Search from "./components/Search";
 import AddAppointemnt from "./components/AddAppointment";
 import AppointmentInfo from "./components/AppointmentInfo";
-// import List from './data.json'
 
 function App() {
   let [appointmentList, setAppointmentList] = useState([]);
